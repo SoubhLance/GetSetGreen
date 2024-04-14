@@ -36,3 +36,4 @@ Open Terminal: You can find Terminal in the Applications > Utilities folder, or 
 3#Imutils :sudo pip install imutils
 4#EasyOCR :sudo pip install easyocr
 
+The Overview Video link: https://youtu.be/CJgtsMvKSa0
