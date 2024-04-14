@@ -16,3 +16,23 @@ CSV module imported for comma seperated values list of car model and information
 Future plans and goals for the remainder of the hackathon:                                                                                                                                                                      
 Adding a front-end to our project to make it user friendly
 
+The Installation Guide for the libraries and files used in the Project are:
+1#OpenCV : pip install opencv-python
+2#Matplotlib : pip install matplotlib
+3#Imutils : pip install imutils
+4#EasyOCR : pip install easyocr
+5# Check your GPU CUDA Core version by entering the command "nvidia-smi" in the CMD
+a) CUDA 11.8 : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+b) CUDA 12.1 : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+all the above modules are tested in python3 and using a windows environment.
+
+For mac:
+To install these Python libraries on a Mac, you can use the Terminal application. Follow these steps:
+
+Open Terminal: You can find Terminal in the Applications > Utilities folder, or you can use Spotlight Search (Cmd + Space) and type "Terminal" to open it.
+
+1#OpenCV :sudo pip install opencv-python
+2#Matplotlib :sudo pip install matplotlib
+3#Imutils :sudo pip install imutils
+4#EasyOCR :sudo pip install easyocr
+
