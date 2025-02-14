@@ -1,39 +1,94 @@
 # GetSetGreen
 
-The core idea and objective of the project:                                                                                                                                                                                   
-Vehicle emissions are a major contributor to environmental pollution and climate change, with far-reaching consequences for the planet and human society. We intend to have a seamless paradigm shift from combustion engine based vehicle to electric vehicle provided only the vehicles with higher emission rates are eliminated from roads and the ones meeting the emission check criteria are permitted
+## Core Idea and Objective
 
-Summary of what has been accomplished since the start of the hackathon:
-The program so developed until now from the hackathon beginning is capable of extracting car license number from number plate of the car and search for the car details in database which as of now is static csv file and display the same info to user while prompting for greenest navigation route between any two cities as selected by user.
+Vehicle emissions are a major contributor to environmental pollution and climate change, with far-reaching consequences for the planet and human society. Our goal is to facilitate a seamless transition from combustion engine vehicles to electric vehicles by eliminating high-emission vehicles from the roads and allowing only those that meet emission check criteria to operate.
 
-The current functionality and features implemented:                                                                                                                                                                       
-We have utilised OpenCV(Open Computer Vision) library for object detection in captured image,
-Imutils for extracting layout of the image and sorting contours after edge detection,
-Matplotlib module to display captured image,
-EasyOCR for text recognition and extraction,
-CSV module imported for comma seperated values list of car model and information and also list of starting point to destination.
+---
 
-Future plans and goals for the remainder of the hackathon:                                                                                                                                                                      
-Adding a front-end to our project to make it user friendly
+## Summary of Progress
 
-The Installation Guide for the libraries and files used in the Project are:
-1#OpenCV : pip install opencv-python
-2#Matplotlib : pip install matplotlib
-3#Imutils : pip install imutils
-4#EasyOCR : pip install easyocr
-5# Check your GPU CUDA Core version by entering the command "nvidia-smi" in the CMD
-a) CUDA 11.8 : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-b) CUDA 12.1 : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-all the above modules are tested in python3 and using a windows environment.
+Since the start of the hackathon, we have developed a program capable of:
 
-For mac:
-To install these Python libraries on a Mac, you can use the Terminal application. Follow these steps:
+- Extracting car license numbers from the number plates of vehicles.
+- Searching for car details in a static CSV file database.
+- Displaying car information to the user.
+- Prompting users for the greenest navigation route between two cities of their choice.
 
-Open Terminal: You can find Terminal in the Applications > Utilities folder, or you can use Spotlight Search (Cmd + Space) and type "Terminal" to open it.
+---
 
-1#OpenCV :sudo pip install opencv-python
-2#Matplotlib :sudo pip install matplotlib
-3#Imutils :sudo pip install imutils
-4#EasyOCR :sudo pip install easyocr
+## Current Functionality and Features
 
-The Overview Video link: https://youtu.be/CJgtsMvKSa0
+We have implemented the following functionalities:
+
+- **OpenCV**: Utilized for object detection in captured images.
+- **Imutils**: Used for extracting the layout of the image and sorting contours after edge detection.
+- **Matplotlib**: Employed to display captured images.
+- **EasyOCR**: Used for text recognition and extraction from images.
+- **CSV Module**: Imported for working with the static CSV database, which contains car models, information, and navigation routes between cities.
+
+---
+
+## Future Plans
+
+For the remainder of the hackathon, we plan to:
+
+- Add a front-end interface to make the project more user-friendly and interactive.
+
+---
+
+## Installation Guide
+
+To install the required libraries and files for this project, follow these instructions:
+
+### For Windows:
+
+```bash
+# OpenCV
+pip install opencv-python
+
+# Matplotlib
+pip install matplotlib
+
+# Imutils
+pip install imutils
+
+# EasyOCR
+pip install easyocr
+```
+
+### Check your GPU CUDA Core version by entering the command `nvidia-smi` in the CMD:
+- CUDA 12.1
+  ```bash
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+These modules have been tested with Python3 in a Windows environment.
+
+### For macOS:
+
+To install these libraries on macOS using Terminal, follow these steps:
+- Open Terminal (Cmd + Space and type "Terminal" to search for it).
+- Run the following commands:
+ ``` bash
+# OpenCV
+sudo pip install opencv-python
+
+# Matplotlib
+sudo pip install matplotlib
+
+# Imutils
+sudo pip install imutils
+
+# EasyOCR
+sudo pip install easyocr
+```
+### Overview Video
+
+Watch the project demonstration here:  
+[GetSetGreen - Overview Video](https://youtu.be/CJgtsMvKSa0)
+
+
+```bash
+
+You can use this Markdown format for your project on GitHub or other platforms. It includes all the necessary details in a clean, organized format.
+```
