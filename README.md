@@ -87,7 +87,15 @@ sudo pip install easyocr
 Watch the project demonstration here:  
 [GetSetGreen - Overview Video](https://youtu.be/CJgtsMvKSa0)
 
-For any queries, reach out to the creator at studysadhu2022@gmail.com & soumyabratabose52@gmail.com.
+
+## Support
+
+If you have any questions, issues, or need assistance with this project, feel free to reach out!
+
+- Email 1: [studysadhu2022@gmail.com](mailto:studysadhu2022@gmail.com)
+- Email 2: [soumyabratabose52@gmail.com](mailto:soumyabratabose52@gmail.com)
+
+We appreciate your feedback and contributions!
 
 
 ```bash
